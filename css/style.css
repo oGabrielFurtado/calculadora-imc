@@ -1,0 +1,30 @@
+body {
+    background-color: #808080;
+}
+
+main {
+    width: 60%;
+    background-color: #289443;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #000000;
+}
+
+#main-content {
+    padding: 30px;
+}
+
+#result-content {
+    display: none;
+}
+
+#id-button:active {
+    border-color: #000000;
+}
+
+#img-ilustrativa {
+    text-align: center;
+}
